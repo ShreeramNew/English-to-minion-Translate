@@ -1,0 +1,12 @@
+{
+    "name":"Shreeram",
+    "class":"II BCA",
+    "Roll_no":21525,
+    "male":true,
+    "items":["item1","item2","item3"],
+    "jsonObject":{
+        "object1":100,
+        "object2":200
+    }
+}
+
