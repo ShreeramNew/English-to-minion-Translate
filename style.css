@@ -41,14 +41,14 @@
 .footer-texts{
     text-decoration: none;
     color: rgb(244, 243, 247);
-    font-size: 0.8em;
+    font-size: 0.9em;
     text-align: left;
 }
 
 
 .logo{
-    height: 18px;
-    width: 18px;
+    height: 19px;
+    width: 19px;
 }
 .footer{
      background-color: rgb(58, 61, 60);
@@ -60,7 +60,8 @@
   
 }
 .footer-title{
-    font-size: 1em;
+    padding-top: 20px;
+    font-size: 1.1em;
     color: aliceblue;
 }
 .h3{
@@ -99,7 +100,7 @@
        display: flex;
        padding-left: 2%;
        padding-top:0px;
-       padding-bottom:60px;
+       padding-bottom:62px;
    }
     
 } 
