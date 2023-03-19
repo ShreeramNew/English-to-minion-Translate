@@ -1,3 +1,10 @@
+.html{
+    margin: 0px;
+   padding: 0px;
+}
+.body{
+    margin: 0%;
+}
 .h1{
     color:#09e909;
 }
@@ -12,16 +19,15 @@
     display: block;
     margin: auto;
 }
-.background{
+.section-background{
     background-image:url("images/minion.jpg");
     background-size: 100%;
     padding: 5rem;
-    padding-bottom: 10rem;
+    padding-bottom: 12rem;
     background-color: #09e909;
-    /* background-position: left; */
-    /* background-repeat: repeat; */
 }
 .sub-title{
+    visibility: hidden;
     display: block;
     color: rgb(48, 34, 247);
     stroke: black;
@@ -31,6 +37,38 @@
 .output_text{
     visibility:hidden;
 }
+
+.ul{
+    list-style: none;
+
+}
+.footer-texts{
+    text-decoration: none;
+    color: rgb(244, 243, 247);
+}
+
+
+.logo{
+    height: 20px;
+    width: 20px;
+}
+.footer{
+     background-color: rgb(58, 61, 60);
+    display: flex;
+    flex: 200px;
+    padding: 0rem;
+}
+.footer-section{
+    padding-bottom: 20px;
+     margin: 0px;
+  
+}
+.footer-title{
+    color: aliceblue;
+}
 .h3{
-    visibility: hidden;
+ margin: 0px;
+}
+.footer-section-2{
+    padding-left: 60px;
 }
