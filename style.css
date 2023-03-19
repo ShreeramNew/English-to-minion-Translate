@@ -7,7 +7,7 @@
     color:#09e909;
 }
 .text-area-size{
-    font-size: 1.4em;
+    font-size: 1.2em;
     resize: none;
     height: 70px;
     width: 600px;
@@ -42,6 +42,7 @@
     text-decoration: none;
     color: rgb(244, 243, 247);
     font-size: 0.8em;
+    text-align: left;
 }
 
 
@@ -68,12 +69,6 @@
 .footer-section-2{
     padding-left: 60px;
 }
-.text{
-    color:white;
-}
-.color{
-    color: aliceblue;
-}
 @media screen and (max-width:600px) {
      .center{
         text-align: center; 
@@ -91,7 +86,7 @@
         background-image:url("images/vertical-minion2.jpg");
         background-size: 100%;
         padding: 5rem;
-        padding-bottom: 12rem;
+        padding-bottom: 11.9rem;
         background-color: #d1e0d1;
     }
     .footer-section{
@@ -103,7 +98,8 @@
         background-color: rgb(58, 61, 60);
        display: flex;
        padding-left: 2%;
-       padding-bottom:30px;
+       padding-top:0px;
+       padding-bottom:55px;
    }
     
 } 
