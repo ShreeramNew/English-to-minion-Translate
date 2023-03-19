@@ -82,16 +82,17 @@
         margin: auto;
     }
     .text-area-size{
+        padding-left: 0px;
         resize: none;
         height: 60px;
-        width: 270px;
+        width: 240px;
     }
     .section-background{
         background-image:url("images/vertical-minion2.jpg");
         background-size: 100%;
         padding: 5rem;
         padding-bottom: 12rem;
-        background-color: #09e909;
+        background-color: #d1e0d1;
     }
     .footer-section{
         padding:20px;
@@ -102,7 +103,7 @@
         background-color: rgb(58, 61, 60);
        display: flex;
        padding-left: 2%;
-       padding-bottom:0px;
+       padding-bottom:30px;
    }
     
 } 
