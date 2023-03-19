@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&display=swap');
 .html{
     margin: 0px;
    padding: 0px;
@@ -8,7 +9,7 @@
 .h1{
     color:#09e909;
 }
-.input_text{
+.text-area-size{
     resize: none;
     height: 50px;
     width: 600px;
@@ -19,22 +20,28 @@
     display: block;
     margin: auto;
 }
+.button{
+   background-color: rgb(0, 255, 136);
+
+   border-radius: 6px;
+}
 .section-background{
     background-image:url("images/minion.jpg");
     background-size: 100%;
     padding: 5rem;
-    padding-bottom: 12rem;
+    padding-bottom: 15rem;
     background-color: #09e909;
 }
 .sub-title{
-    visibility: hidden;
+    background-color: azure;
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
     display: block;
-    color: rgb(48, 34, 247);
-    stroke: black;
-    stroke-width: 20px;
-    stroke-opacity: 100%;
+    color: rgb(19, 98, 172);
+    /* -webkit-text-stroke: rgb(202, 202, 202); */
+   -webkit-text-stroke-width: 0.5px;
 }
-.output_text{
+.visible-hide{
     visibility:hidden;
 }
 
@@ -45,22 +52,23 @@
 .footer-texts{
     text-decoration: none;
     color: rgb(244, 243, 247);
+    font-size: 0.8em;
 }
 
 
 .logo{
-    height: 20px;
-    width: 20px;
+    height: 18px;
+    width: 18px;
 }
 .footer{
      background-color: rgb(58, 61, 60);
     display: flex;
     flex: 200px;
-    padding: 0rem;
+    padding-bottom:0px;
 }
 .footer-section{
-    padding-bottom: 20px;
-     margin: 0px;
+    padding:20px;
+    padding-bottom: 0px;
   
 }
 .footer-title{
@@ -71,4 +79,10 @@
 }
 .footer-section-2{
     padding-left: 60px;
+}
+.text{
+    color:white;
+}
+.color{
+    color: aliceblue;
 }
