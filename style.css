@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,400;1,700&display=swap');
-.html{
-    margin: 0px;
-   padding: 0px;
-}
+
 .body{
     margin: 0%;
 }
@@ -10,8 +7,9 @@
     color:#09e909;
 }
 .text-area-size{
+    font-size: 1.4em;
     resize: none;
-    height: 50px;
+    height: 70px;
     width: 600px;
 }
 .center{
@@ -22,7 +20,7 @@
 }
 .button{
    background-color: rgb(0, 255, 136);
-
+    font-size: 1em;
    border-radius: 6px;
 }
 .section-background{
@@ -31,15 +29,6 @@
     padding: 5rem;
     padding-bottom: 15rem;
     background-color: #09e909;
-}
-.sub-title{
-    background-color: azure;
-    font-family: 'Merriweather', serif;
-    font-weight: bold;
-    display: block;
-    color: rgb(19, 98, 172);
-    /* -webkit-text-stroke: rgb(202, 202, 202); */
-   -webkit-text-stroke-width: 0.5px;
 }
 .visible-hide{
     visibility:hidden;
@@ -63,8 +52,6 @@
 .footer{
      background-color: rgb(58, 61, 60);
     display: flex;
-    flex: 200px;
-    padding-bottom:0px;
 }
 .footer-section{
     padding:20px;
@@ -72,6 +59,7 @@
   
 }
 .footer-title{
+    font-size: 1em;
     color: aliceblue;
 }
 .h3{
@@ -86,3 +74,35 @@
 .color{
     color: aliceblue;
 }
+@media screen and (max-width:600px) {
+     .center{
+        text-align: center; 
+        max-width: 300px;
+        display: block;
+        margin: auto;
+    }
+    .text-area-size{
+        resize: none;
+        height: 60px;
+        width: 270px;
+    }
+    .section-background{
+        background-image:url("images/vertical-minion2.jpg");
+        background-size: 100%;
+        padding: 5rem;
+        padding-bottom: 12rem;
+        background-color: #09e909;
+    }
+    .footer-section{
+        padding:20px;
+        padding-bottom: 15px; 
+      
+    }
+    .footer{
+        background-color: rgb(58, 61, 60);
+       display: flex;
+       padding-left: 2%;
+       padding-bottom:0px;
+   }
+    
+} 
